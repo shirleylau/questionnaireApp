@@ -1,0 +1,11 @@
+body {
+    margin: 0;
+    font-family: ProximaLight, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #a1a1a1;
+}
+
+#root {
+    max-width: 960px;
+    margin: auto;
+}
