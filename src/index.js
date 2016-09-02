@@ -297,7 +297,7 @@ const specialists = [
   {
     id: "s002",
     name: "John Dorian",
-    domains: ["Psychiatry", "Mamasville"],
+    domains: ["Psychiatry"],
     location: "Staten Island, NY",
     image: "https://s-media-cache-ak0.pinimg.com/236x/25/8e/b9/258eb97071206129113d36c7686b64b8.jpg"
   },
