@@ -15,12 +15,9 @@
   height: 80px;
 }
 
-/*.questionnaire-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
-}*/
+.results-header {
+  text-align: center;
+}
 
 .btn {
     /*margin: 5px;*/
@@ -48,7 +45,6 @@
 
 .clickable-option > div {
     height: 24px;
-    /*line-height: 24px;*/
 }
 
 .single-select {
@@ -71,6 +67,11 @@
     justify-content: center;
 }
 
+.results-footer a {
+  padding: 10px;
+  cursor: pointer;
+}
+
 .resource-options {
   display: flex;
   flex-flow: row wrap;
@@ -78,17 +79,10 @@
 
 .contact-card {
   padding: 15px 20px;
-  /*margin: 5px;*/
   display: flex;
   flex-grow: 1;
   flex-flow: column nowrap;
   border-bottom: 1px solid #d6d6d5;
-  /*border-bottom: solid transparent;*/
-}
-
-.contact-card.clicked {
-/*background-color: #e4eff9;*/
-  /*border-bottom: solid #299cd7;*/
 }
 
 .contact-image {
@@ -96,7 +90,6 @@
   height: 160px;
   border-radius: 80px;
   margin: auto;
-  /*background-color: oldlace;*/
 }
 
 .contact-info p:last-child {

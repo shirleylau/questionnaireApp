@@ -143,26 +143,24 @@ class ResultsPage extends Component {
       <div className='results-page'>
         <div className="results-header">
           <h2 className='blue-text'>{result.headline}</h2>
-        </div>
-        <div className="results-body">
           <p>{result.description}</p>
-          {
-            resources && (
-              <div className='resource-options'>
-                {
-                  resources.map(resource => {
-                    const {id, ...other} = resource;
-                    return <ContactCard {...other} key={id} />
-                  })
-                }
-              </div>
-            )
-          }
         </div>
+        {
+          resources && (
+            <div className='resource-options'>
+              {
+                resources.map(resource => {
+                  const {id, ...other} = resource;
+                  return <ContactCard {...other} key={id} />
+                })
+              }
+            </div>
+          )
+        }
         <div className="results-footer">
-          <div className='btn primary' onClick={onSubmit}>
-            Take it Again
-          </div>
+          <a className='blue-text' onClick={onSubmit}>
+            &#12296; Take it Again
+          </a>
         </div>
       </div>
     );
